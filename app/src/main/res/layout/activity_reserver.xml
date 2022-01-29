@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#46464B"
+    tools:context=".PlanningCategoryActivity">
+
+    <LinearLayout
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Lundi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tuesday"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_3"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Mardi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/wednesday"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_4"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Mercredi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/thursday"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_5"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Jeudi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friday"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_6"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Vendredi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/saturday"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_bg_7"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Samedi"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg_1"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Dimanche"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
+
+        <ImageView
+            app:tint="@color/black2"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/reserve" />
+
+    </LinearLayout>
+
+</LinearLayout>

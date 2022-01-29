@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fit-club</string>
+    <string name="forgot"> <u>Mot de passe oublié ?</u></string>
+
+    <string name="notification_channel_id"> <u>My notification</u></string>
+    <string name="notification_channel_title"> <u>My notification</u></string>
+    <string name="notification_channel_desc"> <u>Default notification</u></string>
+
+</resources>

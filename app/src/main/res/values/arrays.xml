@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intitules">
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+        <item>Avis aux nos abonnées</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>01-01/2022</item>
+        <item>05-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+        <item>01-12/2021</item>
+    </string-array>
+
+    <array name="idimages">
+        <item>@drawable/new_a</item>
+        <item>@drawable/new_a</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+        <item>@drawable/avis</item>
+    </array>
+
+</resources>
